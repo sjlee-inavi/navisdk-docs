@@ -4,11 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "iNaviSDK",
   description: "iNavi Android Navigation SDK Developer Guide",
-  base: '/index/',
+  base: '/navisdk-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/index' },
+      { text: 'Home', link: '/' },
     ],
   }
 })
